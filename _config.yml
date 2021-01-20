@@ -22,11 +22,11 @@ title: Zhuo (Joe) Zhong
 email: zhuo.zhong@unimelb.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
 
-baseurl: "www.joe-zh.com" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "www.joe-zh.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
