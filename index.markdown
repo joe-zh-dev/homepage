@@ -4,6 +4,8 @@
 layout: page
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <h1 style="font-size:24pt">
 <center><b><span style="color: rgb(9, 65, 131)"> Zhuo (Joe) Zhong </span></b></center>
 <center><b><span style="color: rgb(9, 65, 131)">钟卓</span></b></center>
@@ -11,26 +13,27 @@ layout: page
 
 
 <table>
- <tr>
-    <td>
-        <span style="color: gray">
-            Associate Professor of Finance <br />
-            Faculty of Business and Economics <br />
-            University of Melbourne
-        </span>
-        <br />
-        <br />
-        <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fxr1cgj7ogztmr4t%2FCV.pdf%3Fdl%3D0&sa=D&sntz=1&usg=AFQjCNHF6UEg_ZZA1cEOwvhDieZv58FZrg">CV</a>
-        (<a href="https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fhsonp5dmiwyoxtc%2F%25E4%25B8%25AA%25E4%25BA%25BA%25E7%25AE%2580%25E4%25BB%258B.pdf%3Fdl%3D0&sa=D&sntz=1&usg=AFQjCNE-vm_9AY58qKA3zdBNq9e3EL6m3A">个人简介</a>)
-        <br />
-        Email: <tt><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a> </tt>
-        <br />
-        微信公众号(扫码进入): 
-        <br />
-        <img src="/wechat.jpg" width="100" />
-    </td>
-    <td><img style="float: center;" src="/mugshot.jpeg" width="120" height="160" /></td>
- </tr>
+    <tr>
+        <td>
+            <span style="color: gray">
+                Associate Professor of Finance <br />
+                Faculty of Business and Economics <br />
+                University of Melbourne
+            </span>
+            <br />
+            <br />
+            <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fxr1cgj7ogztmr4t%2FCV.pdf%3Fdl%3D0&sa=D&sntz=1&usg=AFQjCNHF6UEg_ZZA1cEOwvhDieZv58FZrg">Curriculum Vitae</a>
+            <br />
+            <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fhsonp5dmiwyoxtc%2F%25E4%25B8%25AA%25E4%25BA%25BA%25E7%25AE%2580%25E4%25BB%258B.pdf%3Fdl%3D0&sa=D&sntz=1&usg=AFQjCNE-vm_9AY58qKA3zdBNq9e3EL6m3A">个人简介</a>
+        </td>
+        <td>
+            <i class='fa fa-envelope-open'></i> <tt><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a> </tt>
+            <br />
+            <i class='fa fa-comments'></i> 微信公众号: 
+            <br />
+            <img src="/wechat.jpg" width="100" />
+        </td>
+    </tr>
 </table>
 
 
