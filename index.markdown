@@ -25,9 +25,11 @@ layout: page
         <br />
         Email: <tt><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a> </tt>
         <br />
-        微信公众号(扫码进入): <img src="/wechat.jpg" width="100" />
+        微信公众号(扫码进入): 
+        <br />
+        <img src="/wechat.jpg" width="100" />
     </td>
-    <td><img style="float: right;" src="/mugshot.jpeg" width="150" height="200" /></td>
+    <td><img style="float: center;" src="/mugshot.jpeg" width="120" height="160" /></td>
  </tr>
 </table>
 
