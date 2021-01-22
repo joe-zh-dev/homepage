@@ -6,6 +6,26 @@ layout: page
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<style>
+        @media screen and (max-width: 400px) {
+    #td_1 {
+        display: none;
+    }
+            #td_2{
+                display: block!important;
+                text-align: center;
+            }
+            #td_3{
+                text-align: center;
+            }
+        #tr_1{
+                display: flex;
+    flex-direction: column;
+        }
+}
+</style>
+
+
 <h1 style="font-size:24pt">
 <center><b><span style="color: rgb(9, 65, 131)"> Zhuo (Joe) Zhong </span></b></center>
 <center><b><span style="color: rgb(9, 65, 131)">钟卓</span></b></center>
@@ -13,8 +33,8 @@ layout: page
 
 
 <table>
-    <tr>
-        <td>
+    <tr id="tr_1">
+        <td id="td_1">
             <span style="color: gray">
                 Associate Professor of Finance <br />
                 Faculty of Business and Economics <br />
@@ -26,7 +46,19 @@ layout: page
             <br />
             <a href="https://www.dropbox.com/s/hsonp5dmiwyoxtc/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B.pdf?dl=0">个人简介</a>
         </td>
-        <td>
+        <td id="td_2" style="display: none">
+            <span style="color: gray">
+                Associate Professor of Finance <br />
+                Faculty of Business and Economics <br />
+                University of Melbourne
+            </span>
+            <br />
+            <br />
+            <a href="https://www.dropbox.com/s/gddmsa7h22yg0e1/CV.pdf?dl=0">Curriculum Vitae</a>
+            <br />
+            <a href="https://www.dropbox.com/s/hsonp5dmiwyoxtc/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B.pdf?dl=0">个人简介</a>
+        </td>
+        <td id="td_3">
             <i class='fa fa-envelope-open'></i> <tt><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a> </tt>
             <br />
             <i class='fa fa-comments'></i> 微信公众号: 
@@ -35,6 +67,10 @@ layout: page
         </td>
     </tr>
 </table>
+
+
+
+
 
 
 ## <span style="color: rgb(9, 65, 131)">**Education**</span>
